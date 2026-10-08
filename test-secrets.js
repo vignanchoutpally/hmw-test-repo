@@ -1,3 +1,3 @@
-// Synthetic test values supplied for HMW QA.
-const OPENAI_API_KEY = "sk-proj-test1234567890abcdef1234567890";
-const STRIPE_SECRET_KEY = "sk_test_1234567890abcdef1234";
+// Read credentials from the server environment.
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
+const STRIPE_SECRET_KEY = process.env.STRIPE_SECRET_KEY;
